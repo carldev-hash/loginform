@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup & Signin Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sign In Form -->
+    <form action="" id="signinForm" class="form-container">
+        <h1>SIGN IN</h1>
+        <div class="login-area">
+            <label for="signinEmail">Email</label>
+            <input type="email" name="email" id="signinEmail" required>
+        </div>
+        <div class="login-area">
+            <label for="signinPassword">Password</label>
+            <input type="password" name="password" id="signinPassword" required>
+        </div>
+        <div class="login-area">
+            <button type="submit">Login</button>
+        </div>
+        <p>No account? <a href="#" id="signupLink">Signup Here</a></p>
+    </form>
+
+    <!-- Signup Form -->
+    <form action="" id="signupForm" class="form-container">
+        <h1>SIGN UP</h1>
+        <div class="login-area">
+            <label for="signupEmail">Email</label>
+            <input type="email" name="email" id="signupEmail" required>
+        </div>
+        <div class="login-area">
+            <label for="signupPassword">Password</label>
+            <input type="password" name="password" id="signupPassword" required>
+        </div>
+        <div class="login-area">
+            <button type="submit">Create Account</button>
+        </div>
+        <p>Already have an account? <a href="#" id="signinLink">Signin Here</a></p>
+    </form>
+
+<script src="scrip.js"></script>
+
+</body>
+</html>

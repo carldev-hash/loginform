@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Sour Gummy", sans-serif;
+    border:none;
+    outline: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(bg.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Header */
+form h1 {
+    text-align: center;    
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
+
+form {
+    height: 500px;
+    width: 500px;
+    border: 1px solid rgb(223, 104, 7);
+    padding: 4rem;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+form .login-area {
+    display: flex;
+    flex-direction: column;
+    margin-block-end: 5rem;
+    position: relative;
+}
+
+form .login-area label {
+    font-size: 2rem;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: -25px;
+}
+
+form .login-area input {
+    height: 50px;
+    background:transparent;
+    border-bottom: 2px solid rgb(230, 148, 25);
+    color: #fff;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+form .login-area button {
+    height: 60px;
+    border-radius: 10px;
+    font-size: 2.7rem;
+    color:rgb(223, 104, 7);
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+form .login-area button:hover {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(230, 148, 25);
+    transform: translateY(-10px);
+}
+
+form p {
+    font-size: 1.5rem;
+}
+
+form p > a {
+    text-decoration: none;
+    color: rgb(223, 104, 7)
+}
+
+form p >a:hover {
+    text-decoration: underline;
+}
+
+/* Hide elements by default */
+.none {
+    display: none;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Reduce the form width and padding for medium screens */
+    form {
+        width: 90%;
+        padding: 3rem;
+        height: 90%;
+    }
+    form h1 {
+        font-size: 3rem; /* Smaller header size */
+        margin-bottom: 3rem;
+    }
+    form .login-area label {
+        font-size: 1.8rem; /* Adjust label size */
+    }
+    form .login-area input,
+    form .login-area button {
+        font-size: 1.6rem; /* Adjust input and button size */
+        height: 45px; /* Smaller input/button height */
+    }
+    form p {
+        font-size: 1.3rem; /* Smaller text for the paragraph */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjust for smaller screens */
+    form {
+        width: 95%;
+        padding: 2rem;
+    }
+    form h1 {
+        font-size: 2.5rem; /* Further reduce header size */
+        margin-bottom: 2.5rem;
+    }
+    form .login-area label {
+        font-size: 1.6rem; /* Smaller label size */
+    }
+    form .login-area input,
+    form .login-area button {
+        font-size: 1.4rem; /* Smaller font size for input/button */
+        height: 40px; /* Smaller height for input/button */
+    }
+    form p {
+        font-size: 1.2rem; /* Further reduce text size for small screens */
+    }
+}
