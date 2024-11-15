@@ -54,7 +54,7 @@ signinForm.addEventListener("submit", (event) => {
     if (email === storedEmail && password === storedPassword) {
         alert("Sign in successful!");
         // Redirect or show user data after successful login
-        window.open("https://www.google.com/search?q=mia+khalifa&sca_esv=f3c126b7a3ab2fdd&rlz=1C1GCEA_enPH1122PH1122&udm=2&biw=1920&bih=963&ei=pGg1Z-ayIpKO2roP26L46Ac&ved=0ahUKEwjmlOSf69qJAxUSh1YBHVsRHn0Q4dUDCBA&uact=5&oq=mia+khalifa&gs_lp=EgNpbWciC21pYSBraGFsaWZhMgoQABiABBhDGIoFMg0QABiABBixAxhDGIoFMgoQABiABBhDGIoFMgUQABiABDIFEAAYgAQyCBAAGIAEGLEDMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEioCVCJA1iwB3ABeACQAQCYAWKgAa4BqgEBMrgBA8gBAPgBAZgCA6ACwgHCAgYQABgHGB6YAwCIBgGSBwMyLjGgB9gK&sclient=img");
+        window.open("https://pinayum.org/hinimas-para-tumigas/");
     } else {
         // Clear the fields if wrong input
         alert("Incorrect email or password. Please try again.");
